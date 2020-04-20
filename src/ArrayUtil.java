@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
@@ -13,7 +14,15 @@ public class ArrayUtil {
    * @return String array with common elements
    */
   public static String[] findCommon(String[] array1, String[] array2) {
-    // TODO fill in code here
-    return new String[0];
+    ArrayList<String> arrayresult_int = new ArrayList<>();
+    for (int i = 0; i < array1.length; i++) {
+      for (int j = 0; j < array2.length; j++) {
+        if (array1[i].equals(array2[j]) == true) {
+          arrayresult_int.add(array1[i]);
+        }
+      }
+    }
+    String[] arrayresult = arrayresult_int.toArray(new String[arrayresult_int.size()]);
+    return arrayresult;
   }
 }

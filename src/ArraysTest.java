@@ -17,8 +17,22 @@ public class ArraysTest {
             new String[]{"Python", "JAVA", "PHP", "C#", "C++", "SQL"},
             new String[]{"MySQL", "SQL", "SQLite", "Oracle", "PostgreSQL", "DB2", "JAVA"},
             new String[]{"JAVA", "SQL"}
+        },
+        {
+            new String[]{"Coca-Cola", "Pepsi", "Sprite", "Fanta", "7up", "Schweppes"},
+            new String[]{"Coca-Cola", "Pepsi", "Zhivchik", "Tarhun", "Obolon", "Schweppes", "Fanta", "Sprite"},
+            new String[]{"Coca-Cola", "Pepsi", "Sprite", "Fanta", "Schweppes"},
+        },
+        {
+            new String[]{"New-Orlean", "Buffalo", "Abu-Dabi", "Los-Angeles", "Austin", "Indiannapolis", "Kiev", "London", "Rome", "Warshawa", "Praha"},
+            new String[]{"Milan", "Berlin", "Turin", "Oslo", "Paris", "New-Orlean", "Buffalo", "Los-Angeles", "Austin", "Indiannapolis"},
+            new String[]{"New-Orlean", "Buffalo", "Los-Angeles", "Austin", "Indiannapolis"}
+        },
+        {
+            new String[]{"11", "3", "15", "9"},
+            new String[]{"2", "10", "20", "14", "12", "200", "500"},
+            new String[]{}
         }
-        // TODO add 2 more test data here
     };
   }
 
